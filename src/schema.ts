@@ -64,6 +64,6 @@ const schema = makeExecutableSchema({
 
 export const schemaWithMiddleware = applyMiddleware(
   schema,
-  //middlewares,
-  //permissions
+  middlewares,
+  permissions
 );
